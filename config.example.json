@@ -1,0 +1,32 @@
+{
+  "feishu": {
+    "appId": "cli_xxxxxxxxxxxxxxxx",
+    "appSecret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "dmMode": "open",
+    "dmAllowlist": [],
+    "requireMention": true,
+    "approvalAllowlist": []
+  },
+  "dsh": {
+    "runtimeExe": "D:\\software\\DeepSeek Harness\\DeepSeek Harness.exe",
+    "dshBin": "",
+    "useNode": true,
+    "dshHome": "C:\\Users\\<你的用户名>\\.dsh",
+    "profile": "sdk",
+    "mockMode": false,
+    "cwd": "E:\\workspace",
+    "provider": "deepseek-official",
+    "model": "deepseek-v4-flash",
+    "modelCandidates": ["deepseek-v4-flash", "deepseek-v4-pro", "deepseek-chat"],
+    "maxTokens": 49152,
+    "reasoningEffort": ""
+  },
+  "bridge": {
+    "stateFile": "E:\\workspace\\dsh-feishu\\state.json",
+    "logDir": "E:\\workspace\\dsh-feishu\\logs",
+    "showToolCalls": true,
+    "announceTurnEnd": false,
+    "maxReplyChars": 12000,
+    "persistSessions": true
+  }
+}

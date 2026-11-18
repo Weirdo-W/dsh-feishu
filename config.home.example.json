@@ -1,0 +1,33 @@
+{
+  "_说明": "家里电脑用的配置模板。复制成 config.json 后，把 5 处 <...> 改成家里的实际值。",
+  "feishu": {
+    "appId": "cli_家里那个应用的AppID",
+    "appSecret": "家里那个应用的AppSecret",
+    "dmMode": "open",
+    "dmAllowlist": [],
+    "requireMention": true,
+    "approvalAllowlist": []
+  },
+  "dsh": {
+    "runtimeExe": "C:\\Program Files\\DeepSeek Harness\\DeepSeek Harness.exe",
+    "dshBin": "",
+    "useNode": true,
+    "dshHome": "C:\\Users\\<家里的用户名>\\.dsh",
+    "profile": "sdk",
+    "mockMode": false,
+    "cwd": "D:\\work",
+    "provider": "deepseek-official",
+    "model": "deepseek-v4-flash",
+    "modelCandidates": ["deepseek-v4-flash", "deepseek-v4-pro", "deepseek-chat"],
+    "maxTokens": 49152,
+    "reasoningEffort": ""
+  },
+  "bridge": {
+    "stateFile": "D:\\dsh-feishu\\state.json",
+    "logDir": "D:\\dsh-feishu\\logs",
+    "showToolCalls": true,
+    "announceTurnEnd": false,
+    "maxReplyChars": 12000,
+    "persistSessions": true
+  }
+}
