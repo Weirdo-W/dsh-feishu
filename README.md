@@ -4,12 +4,15 @@
 
 # 飞书 ⇄ DeepSeek Harness 桥
 
+**简体中文** · [English](README.en.md)
+
 <br />
 
 ![Node](https://img.shields.io/badge/Node-%3E%3D18-green)
 ![Feishu](https://img.shields.io/badge/Feishu-%E8%87%AA%E5%BB%BA%E5%BA%94%E7%94%A8-448aff)
 ![DSH](https://img.shields.io/badge/DeepSeek%20Harness-0.2.x-6366f1)
-![Long](https://img.shields.io/badge/%E9%95%BF%E8%BF%9E%E6%8E%A5-%E9%9A%8F%E6%97%B6%E5%9B%BD-green)
+![NoPublicIP](https://img.shields.io/badge/%E5%85%8D%E5%85%AC%E7%BD%91IP-green)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
 **在飞书里像聊天一样使用本机的 DeepSeek Harness**：发指令、看它执行、**点卡片按钮完成审批**。
 不需要公网 IP、不需要反向代理——本机主动用飞书长连接连出去即可。
